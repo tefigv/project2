@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    background-color: lightblue;
+}
+.page{
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn-primary{
+  background-color: lightgrey;
+  border-color: lightgray;
+  
+}
+.section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    background-color: white;
+    display: block;
+    text-align: center;
+    color: black;
+    padding: 20px;
+    margin: auto;
+    width: 100%;
+  }
+  /* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    .page {
+      width: 960px;
+      margin: 0 auto;
+    }
+   
+    .header {
+      height: 400px;
+    }
+  }

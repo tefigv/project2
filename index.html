@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <meta name='viewport'
+      content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <title>GIF SERCHER</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel='stylesheet' href='styles.css'/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  </head>
+
+<body>
+    <div class="page">
+
+        <div class="section content">
+            <div class="text">
+                <h3>This webpage will describe your emotions with gifs!</h3>
+            </div>
+        </div>
+        
+        <div id="request"class="input-group rounded">
+            <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+            <button type="button" onclick="sendApiRequest()" class="btn btn-primary" id="serch">
+                <img src ="https://i.pinimg.com/originals/95/56/f9/9556f902c9acfa20cea3b161fb9d45ee.png" width=30 hight=30/>
+                <i class="fas fa-search"></i>
+              </button><br>
+            
+        </div>
+
+        
+        <div class="section footer">
+
+        </div>
+    </div>  
+    <script text="type/javascript" src="script.js"></script>
+</body>
+</html>
